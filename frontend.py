@@ -71,7 +71,7 @@ with st.sidebar:
     with st.expander("About Srii"):
         st.markdown("""
             - Siri ❌ Srii ✅
-            - Made by Ajay
+            - Made by Deepanshu
             - Using LangGraph 
             """)
     st.set_page_config(
@@ -150,4 +150,5 @@ if user_input:
         ai_message = full_content
 
     st.session_state["history"].append({"role": "assistant", "content": ai_message})
+
 
