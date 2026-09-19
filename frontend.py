@@ -34,7 +34,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🤖 Srii")
+st.title("🤖 Nexxa-AI")
 
 
 # *************** SESSION SETUP ******************
@@ -70,7 +70,7 @@ with st.sidebar:
         
     with st.expander("About Srii"):
         st.markdown("""
-            - Siri ❌ Srii ✅
+            - Nexa ❌ Nexxa ✅
             - Made by Deepanshu
             - Using LangGraph 
             """)
